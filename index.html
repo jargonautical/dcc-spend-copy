@@ -32,12 +32,12 @@ layout: default
 	<span property="dcat:accrualPeriodicity">{{ site.frequency }}</span>
 </div>
 
+{% include data.html %}
+	
 <div>
 	<h2 property="rdfs:label">Open Data Certificate</h2>
 	{{ site.certificate_embed }}
 </div>
-
-{% include data.html %}
 
 {% include github.html %}
 
